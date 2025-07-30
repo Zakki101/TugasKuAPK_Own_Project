@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Pencil icon -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M10.42,20H6.01V15.59L19.01,2.59L23.42,7L10.42,20ZM8.01,18H9.59L20.59,7L19.01,5.41L8.01,16.41V18Z"/>
+
+    <!-- Pencil tip detail -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M8.717,14.288L7.303,15.702L10.301,18.7L11.715,17.286L8.717,14.288Z"/>
+
+    <!-- Document body -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M17,24H0V0H17V4H15V2H2V22H15V17H17V24Z"/>
+
+    <!-- Document lines (combined into one path) -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M12,4H4V6H12V4ZM9,8H4V10H9V8ZM6,12H4V14H6V12Z"/>
+</vector>

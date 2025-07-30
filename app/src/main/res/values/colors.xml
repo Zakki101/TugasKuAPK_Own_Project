@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="birudasar">#3F51B5</color>
+    <color name="kuningsecond">#FFA726</color>
+    <color name="backgroundmain">#D7EAFE</color>
+    <color name="merahbut">#FF5C5C</color>
+    <color name="warnkuning">#FFCA28</color>
+    <color name="warnmerah">#EF5350</color>
+    <color name="warnhijau">#0FAE00</color>
+
+</resources>

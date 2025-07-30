@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="27dp"
+    android:height="26dp"
+    android:viewportWidth="27"
+    android:viewportHeight="26">
+
+    <!-- Main calendar body -->
+    <path
+        android:fillColor="#4F4F4D"
+        android:pathData="M26.156,25.764H0.5V2.569H4V4.901H2.832V23.432H23.823V4.901H22.657V2.569H26.156V25.764Z"/>
+
+    <!-- Top header bar -->
+    <path
+        android:fillColor="#4F4F4D"
+        android:pathData="M17.993,2.569H6.331V4.901H17.993V2.569Z"/>
+
+    <!-- Left toggle button -->
+    <path
+        android:fillColor="#4F4F4D"
+        android:pathData="M7.497,0.236H5.165V7.233H7.497V0.236Z"/>
+
+    <!-- Right header section -->
+    <path
+        android:fillColor="#4F4F4D"
+        android:pathData="M23.823,2.569H20.325V4.901H23.823V2.569Z"/>
+
+    <!-- Right toggle button -->
+    <path
+        android:fillColor="#4F4F4D"
+        android:pathData="M21.491,0.236H19.159V7.233H21.491V0.236Z"/>
+
+    <!-- Calendar date cells (optimized into single path) -->
+    <path
+        android:fillColor="#4F4F4D"
+        android:pathData="M7.497,12.936H5.165V15.268H7.497V12.936ZM21.491,12.936H19.159V15.268H21.491V12.936ZM16.826,12.936H14.494V15.268H16.826V12.936ZM7.497,17.601H5.165V19.933H7.497V17.601ZM16.826,17.601H14.494V19.933H16.826V17.601ZM12.162,17.601H9.829V19.933H12.162V17.601ZM21.491,17.601H19.159V19.933H21.491V17.601Z"/>
+
+    <!-- Checkmark icon -->
+    <path
+        android:fillColor="#4F4F4D"
+        android:pathData="M10.996,14.592L8.418,12.015L10.074,10.37L10.996,11.292L13.666,8.621L15.322,10.265L10.996,14.592Z"/>
+</vector>

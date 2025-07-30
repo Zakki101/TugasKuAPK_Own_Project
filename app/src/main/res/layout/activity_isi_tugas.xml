@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".activity.IsiTugas">
+
+    <!-- Nama Tugas -->
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:hintEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_Judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NAMA TUGAS"
+            android:inputType="textCapWords"
+            android:fontFamily="@font/intro_rust"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Rincian -->
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:hintEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_rincian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RINCIAN"
+            android:fontFamily="@font/intro_rust"
+            android:inputType="textMultiLine"
+            android:gravity="top" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Deadline -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_deadline"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:hint="Deadline"
+                android:fontFamily="@font/intro_rust"
+                android:inputType="none"
+                android:focusable="false"
+                android:clickable="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <!-- Status -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STATUS:"
+            android:fontFamily="@font/intro_rust"
+            android:textSize="16sp"
+            android:layout_marginEnd="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radio_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radio_belum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BELUM SELESAI"
+                android:textColor="@color/warnmerah"
+                android:textSize="13dp"
+                android:fontFamily="@font/intro_rust"
+                android:layout_marginEnd="16dp"/>
+
+            <RadioButton
+                android:id="@+id/radio_selesai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/intro_rust"
+                android:textSize="13dp"
+                android:textColor="@color/warnhijau"
+                android:text="SUDAH SELESAI"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- Button TAMBAH -->
+    <Button
+        android:id="@+id/btn_tambah"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:backgroundTint="@color/backgroundmain"
+        android:fontFamily="@font/intro_rust"
+        android:textColor="@color/black" />
+
+</LinearLayout>

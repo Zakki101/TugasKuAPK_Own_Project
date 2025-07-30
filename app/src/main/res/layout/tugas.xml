@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tugascard" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:paddingStart="8dp"
+        android:paddingBottom="3sp"
+        android:layout_marginHorizontal="5dp"
+        android:text="Tugas 12 PBP"
+        android:fontFamily="@font/intro_rust"
+        android:textSize="14dp" />
+
+    <TableLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginHorizontal="5dp">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deadline: "
+                android:paddingStart="8dp"
+                android:textSize="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/intro_rust" />
+
+            <RelativeLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_deadline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="22dp"
+                    android:text="5 Hari"
+                    android:textSize="10dp"
+                    android:textColor="@color/warnhijau"
+                    android:fontFamily="@font/intro_rust" />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv_marktugas"
+        android:layout_width="100dp"
+        android:layout_height="16dp"
+        android:text="Belum Selesai"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:fontFamily="@font/intro_rust"
+        android:paddingTop="1sp"
+        android:paddingStart="11dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/marktugas_blm"
+        android:layout_marginEnd="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
