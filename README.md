@@ -1,3 +1,3 @@
-# TugasKuAPK (Own Project)
+# TugasKuAPK (Projek Mandiri)
 Aplikasi ini merupakan aplikasi task manager atau managemen tugas dimana user dapat membuat catatan mengenai tugas dengan memasukkan judul tugas, rincian, deadline, serta penanda apakah tugas sudah selesai atau belum. Pada aplikasi juga terdapat fitur sort yang memudahkan user dalam mengelola tugas yang diinput.
 Aplikasi ini merupakan projek yang saya kerjakan untuk mengisi waktu luang sebagai mahasiswa semester 4. Berbasis android dengan penyimpanan menggunakan DBSQLite yang bersifat lokal dan kedepannya akan ditambah beberapa fitur seperti manajemen aktivitas dengan kalender dan beberapa fitur kecil lainnya.
