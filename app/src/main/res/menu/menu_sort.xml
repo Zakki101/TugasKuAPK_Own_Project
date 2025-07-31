@@ -11,5 +11,5 @@
         android:title="Nama Tugas (A-Z)"/>
     <item
         android:id="@+id/sort_by_status"
-        android:title="Status (Selesai/Belum)"/>
+        android:title="Status Belum Selesai"/>
 </menu>

@@ -12,7 +12,7 @@
 
     <!-- Nama Tugas -->
     <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -22,6 +22,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="NAMA TUGAS"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:inputType="textCapWords"
             android:fontFamily="@font/intro_rust"
             android:maxLines="1" />
@@ -29,7 +31,7 @@
 
     <!-- Rincian -->
     <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -39,6 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="RINCIAN"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
             android:fontFamily="@font/intro_rust"
             android:inputType="textMultiLine"
             android:gravity="top" />
@@ -53,16 +57,17 @@
         android:weightSum="2">
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edt_deadline"
-                android:layout_width="379dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Deadline"
                 android:fontFamily="@font/intro_rust"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:inputType="none"
                 android:focusable="false"
                 android:clickable="true"/>
@@ -81,6 +86,7 @@
             android:layout_height="wrap_content"
             android:text="STATUS:"
             android:fontFamily="@font/intro_rust"
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:layout_marginEnd="16dp"/>
 

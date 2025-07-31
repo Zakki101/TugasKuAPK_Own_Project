@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
     private void showSortMenu(View view) {
         PopupMenu popupMenu = new PopupMenu(this, view);
         popupMenu.getMenuInflater().inflate(R.menu.menu_sort, popupMenu.getMenu());
-
         popupMenu.setOnMenuItemClickListener(item -> {
             int itemId = item.getItemId();
 
@@ -88,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
             }
             return false;
         });
-
         popupMenu.show();
     }
 
